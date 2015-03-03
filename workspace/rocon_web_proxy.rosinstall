@@ -2,9 +2,10 @@
 #       http://ros.org/wiki/rocon_tools/Tutorials/indigo/Installation
 #
 [
-
 # Stacks necessary for rocon concert managment
 {'git': {'local-name': 'rocon_concert', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_concert.git'}},
+{'git': {'local-name': 'rocon_app_platform', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git'}},
+{'git': {'local-name': 'concert_scheduling', 'version': 'indigo', 'uri': 'https://github.com/utexas-bwi/concert_scheduling.git'}},
 
 # Stacks necessary for rocon tools
 {'git': {'local-name': 'rocon_msgs', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'}},
