@@ -10,5 +10,6 @@ sudo docker run \
   --privileged \
   -ti \
   -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -v ${my_loc}/workspace:/home/ros/workspace ekumen/rocon-web-proxy \
+  -v ${my_loc}/workspace:/home/ros/workspace \
+  ekumen/rocon-web-proxy \
   /bin/bash -c "tmux"
