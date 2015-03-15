@@ -1,0 +1,34 @@
+#
+#       http://ros.org/wiki/rocon_tools/Tutorials/indigo/Installation
+#
+[
+# Stacks necessary for rocon concert managment
+{'git': {'local-name': 'rocon_concert', 'version': 'authentication_and_authorization', 'uri': 'https://github.com/creativa77/rocon_concert.git'}},
+{'git': {'local-name': 'rocon_app_platform', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git'}},
+{'git': {'local-name': 'concert_scheduling', 'version': 'indigo', 'uri': 'https://github.com/utexas-bwi/concert_scheduling.git'}},
+
+# Stacks necessary for rocon tools
+{'git': {'local-name': 'unique_identifier', 'version': 'master', 'uri': 'https://github.com/ros-geographic-info/unique_identifier.git'}},
+{'git': {'local-name': 'roslint', 'version': 'master', 'uri': 'https://github.com/ros/roslint.git'}},
+
+{'git': {'local-name': 'rocon_msgs', 'version': 'rocon_authorization', 'uri': 'https://github.com/creativa77/rocon_msgs.git'}},
+{'git': {'local-name': 'rocon_tools', 'version': 'rocon_authorization', 'uri':'https://github.com/creativa77/rocon_tools.git'}},
+
+# Stacks necessary for web apps and web_proxy
+{'git': { 'local-name': 'rocon_web_proxy', 'uri':  'https://github.com/creativa77/rocon_web_proxy.git', 'version': 'master' }},
+{'git': { 'local-name': 'rosbridge_suite', 'uri':  'https://github.com/creativa77/rosbridge_suite.git', 'version': 'multiple_user_authentication' }},
+{'git': {'local-name': 'rosauth', 'version': 'multiple_user_authentication', 'uri': 'https://github.com/creativa77/rosauth.git'}},
+
+# Stacks necessary for the rocon remocon (actually just need messages, but other qt apps in rocon_qt_guis have dependencies)
+{'git': {'local-name': 'rocon_multimaster', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_multimaster.git'}},
+{'git': {'local-name': 'rocon_qt_gui', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'}},
+
+# Stacks necessary for Chatter and Turtblebot concert
+{'git': {'local-name': 'rocon_tutorials', 'version': 'authentication_and_authorization', 'uri': 'https://github.com/creativa77/rocon_tutorials.git'}},
+
+# New rocon_authorization package
+{'git': {'local-name': 'rocon_authorization', 'version': 'master', 'uri': 'https://github.com/creativa77/rocon_authorization.git'}},
+
+# Web Remocon GUI
+{'git': {'local-name': 'rocon_web_gui', 'version': 'authentication_and_authorization', 'uri': 'https://github.com/creativa77/rocon_web_gui.git'}},
+]
