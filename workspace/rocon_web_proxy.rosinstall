@@ -6,4 +6,5 @@
 {'git': { 'local-name': 'rocon_web_proxy', 'uri':  'https://github.com/creativa77/rocon_web_proxy.git', 'version': 'master' }},
 {'git': { 'local-name': 'rosbridge_suite', 'uri':  'https://github.com/creativa77/rosbridge_suite.git', 'version': 'rocon-web-proxy' }},
 {'git': { 'local-name': 'web_video_server', 'uri':  'https://github.com/creativa77/web_video_server.git', 'version': 'develop' }},
+{'git': { 'local-name': 'rosauth', 'uri':  'https://github.com/creativa77/rosauth.git', 'version': 'multiple_user_authentication' }},
 ]
