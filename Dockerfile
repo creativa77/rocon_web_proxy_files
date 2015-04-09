@@ -11,6 +11,8 @@ RUN apt-get install -y --force-yes python-rosinstall
 RUN apt-get install -y --force-yes gnome-terminal
 RUN apt-get install -y --force-yes ros-indigo-usb-cam ros-indigo-web-video-server
 RUN apt-get install -y --force-yes ros-indigo-async-web-server-cpp
+RUN apt-get install -y --force-yes python-pip
+RUN pip install pycurl
 
 # TODO: modify /etc/avahi/avahi-daemon.conf to set enable-dbus=no
 
